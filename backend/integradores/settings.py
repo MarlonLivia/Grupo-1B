@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'integradores.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Proyectos',      
-        'USER': 'root',                   
-        'PASSWORD': 'admin',                   
+        'NAME': 'proyectos',      
+        'USER': 'django',                   
+        'PASSWORD': 'admin123',                   
         'HOST': 'localhost',              
         'PORT': '3306',                   
         'OPTIONS': {
